@@ -1,16 +1,13 @@
 import React from 'react';
+import Navigation from './nav';
 
 function App() {
   return (
     <div style={{ textAlign: 'center' }}>
       <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
+      <img src="public/Images/240515357_168520088745215_5357753617356093501_n.jpg"></img>
       </header>
+      <Navigation />
     </div>
   );
 }
