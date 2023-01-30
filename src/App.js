@@ -1,15 +1,23 @@
-import React from 'react';
-import Navigation from './nav';
+import React from 'react'
+import AboutUs from './AboutUs'
+import Home from './Home'
+import Welcome from './Welcome';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Reviews from './Reviews';
+
 
 function App() {
   return (
-    <div style={{ textAlign: 'center' }}>
-      <header>
-      <img src="public/Images/240515357_168520088745215_5357753617356093501_n.jpg"></img>
-      </header>
-      <Navigation />
-    </div>
-  );
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}>
+        <Route index element={<Welcome />}/>
+        <Route path="about-us" element={<AboutUs />} />
+        <Route path="reviews" element={<Reviews />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App;
