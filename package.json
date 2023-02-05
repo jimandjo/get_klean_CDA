@@ -6,6 +6,7 @@
     "axios": "^1.2.4",
     "bootstrap": "^5.2.3",
     "json-server": "^0.17.1",
+    "mdbreact": "^5.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
@@ -32,5 +33,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https:///dist/"
 }

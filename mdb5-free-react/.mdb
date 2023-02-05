@@ -1,0 +1,9 @@
+{
+  "projectName": "mdb5-free-react",
+  "meta": {
+    "type": "frontend",
+    "starter": "mdb5-free-react"
+  },
+  "packageManager": "npm",
+  "hash": "984c610b"
+}
