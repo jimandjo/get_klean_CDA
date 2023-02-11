@@ -1,24 +1,39 @@
 import Button from "react-bootstrap/Button";
-import "./Welcome.css"
+import Card from "react-bootstrap/Card";
+import ListGroup from 'react-bootstrap/ListGroup';
+import "./Welcome.css";
+
+
+
 
 function Welcome() {
 
   return (
     <>
+   
+        <Card style={{ width: '50rem'}}>
+          <Card.Img variant="top" scr="%PUBLIC_URL%/3617356093501_n.jpg" />
+          <Card.Body>
+          <Card.Title>Get Klean CDA</Card.Title>
+          <Card.Subtitle>I clean and get you organized so you can focus on the important things in life.</Card.Subtitle>
+          <Card.Subtitle></Card.Subtitle>
+          <Card.Header>Cleaning Services Available:</Card.Header>
+            <ListGroup variant="flush">
+              <ListGroup.Item>Residential</ListGroup.Item>
+              <ListGroup.Item>Commercial</ListGroup.Item>
+              <ListGroup.Item>Organizing</ListGroup.Item>
+              <ListGroup.Item>Move-In</ListGroup.Item>
+              <ListGroup.Item>Move-Out </ListGroup.Item>
+              <ListGroup.Item>Vacation Rentals & Air BnB's </ListGroup.Item>
+            </ListGroup>
+          <Button class="btn btn-primary" href="www.vineministry.org" role="button">Get Started</Button>
 
-      <h1 class="mb-3">Get Klean CDA</h1>
-      <h4 class="mb-3">I clean and get you organized so you can focus on the important things in life.
+          </Card.Body>
+          </Card>
 
-        <br></br>
-        Cleaning Services Available:
-        <li>Residential</li>
-        <li>Commercial </li>
-        <li>Organizing </li>
-        <li>Move-In </li>
-        <li>Move-Out </li>
-        <li>Vacation Rentals & Air BnB's</li>
-      </h4>
-      <Button class="btn btn-primary" href="www.vineministry.org" role="button">Get Started</Button>
+        
+        
+      
 
     </>
 
