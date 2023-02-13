@@ -12,7 +12,7 @@ function Home() {
         <Container>
           <Nav className="me-auto">
             <Link to="/" className="nav-link">Home</Link>
-            <Link to="/about-us" className="nav-link">About Us</Link>
+            <Link to="/about-us" className="nav-link">About Me</Link>
             <Link to="/reviews" className="nav-link">Reviews</Link>``
           </Nav>
         </Container>
