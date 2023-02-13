@@ -13,8 +13,7 @@ function Home() {
           <Nav className="me-auto">
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/about-us" className="nav-link">About Us</Link>
-            <Link to="/reviews" className="nav-link">Reviews</Link>
-            <Link to="/welcome1" className="nav-link">Welcome1</Link>
+            <Link to="/reviews" className="nav-link">Reviews</Link>``
           </Nav>
         </Container>
       </Navbar>
