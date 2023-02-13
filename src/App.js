@@ -4,6 +4,7 @@ import Home from './Home'
 import Welcome from './Welcome';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Reviews from './Reviews';
+import Test from './Test';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route index element={<Welcome />}/>
         <Route path="about-us" element={<AboutUs />} />
         <Route path="reviews" element={<Reviews />} />
+        <Route path="test" element={<Test />} />
         </Route>
       </Routes>
     </BrowserRouter>
