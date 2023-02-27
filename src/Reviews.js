@@ -1,5 +1,6 @@
 import Card from "react-bootstrap/Card";
-import CleanHouse from './CleanHouse.jpg'
+import CleanHouse from './CleanHouse.jpg';
+
 
 function Reviews() {
   return (
