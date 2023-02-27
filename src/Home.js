@@ -8,15 +8,18 @@ import React from 'react'
 function Home() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="success" variant="dark">
         <Container>
           <Nav className="me-auto">
             <Link to="/" className="nav-link">Home</Link>
-            <Link to="/about-us" className="nav-link">About Us</Link>
+            <Link to="/about-us" className="nav-link">About Me</Link>
             <Link to="/reviews" className="nav-link">Reviews</Link>
+
           </Nav>
         </Container>
       </Navbar>
+
+      
 
       <Stack gap={3} className="col-md-10 mx-auto">
         <Outlet />

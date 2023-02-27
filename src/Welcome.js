@@ -10,15 +10,19 @@ function Welcome() {
 
   return (
     <>
-   
-        <Card style={{ width: '50rem'}}>
-          <Card.Img variant="top" scr="%PUBLIC_URL%/3617356093501_n.jpg" />
-          <Card.Body>
-          <Card.Title>Get Klean CDA</Card.Title>
-          <Card.Subtitle>I clean and get you organized so you can focus on the important things in life.</Card.Subtitle>
-          <Card.Subtitle></Card.Subtitle>
-          <Card.Header>Cleaning Services Available:</Card.Header>
-            <ListGroup variant="flush">
+  
+          <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <p>Place picture of a clean house here.</p>
+        {/* <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> */}
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3" a href="#">Get Klean CDA</h1>
+        
+        <h4 class="lead">I clean and organize your home so you can do the important things in your life.</h4>
+        <h4 class="lead">Services Available:</h4>
+        <ListGroup variant="flush">
               <ListGroup.Item>Residential</ListGroup.Item>
               <ListGroup.Item>Commercial</ListGroup.Item>
               <ListGroup.Item>Organizing</ListGroup.Item>
@@ -26,10 +30,16 @@ function Welcome() {
               <ListGroup.Item>Move-Out </ListGroup.Item>
               <ListGroup.Item>Vacation Rentals & Air BnB's </ListGroup.Item>
             </ListGroup>
-          <Button class="btn btn-primary" href="www.vineministry.org" role="button">Get Started</Button>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contact Karlie</button>
+          {/* <button type="button" class="btn btn-outline-secondary btn-lg px-4">Sign Up</button> */}
+        </div>
+      </div>
+    </div>
+  </div>
 
-          </Card.Body>
-          </Card>
+
+  
 
         
         

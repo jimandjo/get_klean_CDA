@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^1.2.4",
     "bootstrap": "^5.2.3",
+    "buttercms": "^1.2.9",
     "json-server": "^0.17.1",
     "mdbreact": "^5.2.0",
     "react": "^18.2.0",
