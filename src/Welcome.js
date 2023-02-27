@@ -18,9 +18,9 @@ function Welcome() {
         {/* <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> */}
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Get Klean CDA</h1>
+        <h1 class="display-5 fw-bold lh-1 mb-3" a href="#">Get Klean CDA</h1>
         
-        <h4 class="lead">I will clean and organize your home so you can do the important things in your life.</h4>
+        <h4 class="lead">I clean and organize your home so you can do the important things in your life.</h4>
         <h4 class="lead">Services Available:</h4>
         <ListGroup variant="flush">
               <ListGroup.Item>Residential</ListGroup.Item>
