@@ -8,7 +8,7 @@ import React from 'react'
 function Home() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="success" variant="dark">
         <Container>
           <Nav className="me-auto">
             <Link to="/" className="nav-link">Home</Link>
