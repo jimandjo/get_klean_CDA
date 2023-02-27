@@ -16,7 +16,7 @@ function Welcome() {
   return (
     <>
   
-          <div class="container col-xxl-8 px-4 py-5">
+          <div class="container col-xxl-8 px-4 py-5" >
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
         <img src={CleanHouse} class="d-block mx-lg-auto img-fluid" alt="Clean House" width="700" height="500" loading="lazy"/>
@@ -90,7 +90,7 @@ function Welcome() {
     <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src={Overwhelm} class="d-block mx-lg-auto img-fluid" alt="Clean House" width="700" height="500" loading="lazy"/>
+        <img src={Overwhelm} class="d-block mx-lg-auto img-fluid" alt="Overwhelmed" width="700" height="500" loading="lazy"/>
       </div>
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold lh-1 mb-3" a href="#">I Know the Feeling</h1>
@@ -115,7 +115,8 @@ function Welcome() {
     <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src={Overwhelm} class="d-block mx-lg-auto img-fluid" alt="Clean House" width="700" height="500" loading="lazy"/>
+        <p>Picture of Karla</p>
+        {/* <img src={Overwhelm} class="d-block mx-lg-auto img-fluid" alt="Clean House" width="700" height="500" loading="lazy"/> */}
       </div>
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold lh-1 mb-3" a href="#">Contact Me</h1>
