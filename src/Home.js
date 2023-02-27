@@ -14,7 +14,7 @@ function Home() {
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/about-us" className="nav-link">About Me</Link>
             <Link to="/reviews" className="nav-link">Reviews</Link>
-            {/* <Link to="/test" className="nav-link">Test</Link> */}
+
           </Nav>
         </Container>
       </Navbar>
