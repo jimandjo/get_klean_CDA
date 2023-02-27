@@ -1,4 +1,5 @@
 import Card from "react-bootstrap/Card";
+import CleanHouse from './CleanHouse.jpg'
 
 function Reviews() {
   return (
@@ -11,7 +12,7 @@ function Reviews() {
       </Card> */}
 
       <Card style={{ width: '30rem' }} bg="light">
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img src={CleanHouse} class="d-block mx-lg-auto img-fluid" alt="Clean House" width="700" height="500" loading="lazy"/>
       <Card.Body>
         <Card.Text>Totaly Organized</Card.Text>
         <Card.Title>
@@ -21,7 +22,7 @@ function Reviews() {
     </Card>
 
     <Card style={{ width: '30rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card.Img src={CleanHouse} class="d-block mx-lg-auto img-fluid" alt="Clean House" width="700" height="500" loading="lazy"/>
       <Card.Body>
         <Card.Text>We love what karla does for us</Card.Text>
         <Card.Title>
@@ -31,7 +32,7 @@ function Reviews() {
     </Card>
 
     <Card style={{ width: '30rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card.Img src={CleanHouse} class="d-block mx-lg-auto img-fluid" alt="Clean House" width="700" height="500" loading="lazy"/>
       <Card.Body>
         <Card.Text>Karla is amazing!</Card.Text>
         <Card.Title>
