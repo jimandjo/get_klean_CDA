@@ -8,7 +8,7 @@ function Reviews() {
         <Card.Subtitle>We could not be happier!</Card.Subtitle>
       </Card>
 
-      <Card style={{ width: '18rem' }}>
+      <Card style={{ width: '30rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>Totaly Organized</Card.Title>
@@ -18,7 +18,7 @@ function Reviews() {
       </Card.Body>
     </Card>
 
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '30rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>We love what karla does for us</Card.Title>
@@ -28,7 +28,7 @@ function Reviews() {
       </Card.Body>
     </Card>
 
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '30rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>Karla is amazing!</Card.Title>
