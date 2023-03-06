@@ -6,12 +6,6 @@ import CleanHouse from './dining.jpg';
 import MessyHouse from './MessyHouse.jpg';
 import Overwhelm from './Overwhelm.jpeg';
 
-
-
-
-
-
-
 function Welcome() {
 
   return (
@@ -23,7 +17,7 @@ function Welcome() {
         <img src={CleanHouse} class="d-block mx-lg-auto img-fluid" alt="Clean House" width="700" height="500" loading="lazy"/>
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3" a href="#">Get Klean CDA</h1>
+        <h1 class="display-5 fw-bold lh-1 mb-3">Get Klean CDA</h1>
         
         <h4 class="lead">I clean and organize your home so you can do the important things in your life.</h4>
         <h4 class="lead">Services Available:</h4>
@@ -33,7 +27,6 @@ function Welcome() {
               <ListGroup.Item>Organizing</ListGroup.Item>
               <ListGroup.Item>Move-In</ListGroup.Item>
               <ListGroup.Item>Move-Out </ListGroup.Item>
-              <ListGroup.Item>Vacation Rentals & Air BnB's </ListGroup.Item>
             </ListGroup>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <button type="button" class="btn btn-success btn-lg px-4 me-md-2">Contact Karlie</button>
@@ -42,6 +35,7 @@ function Welcome() {
       </div>
     </div>
   </div>
+  
 {/* Second Hero */}
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
