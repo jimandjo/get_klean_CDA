@@ -49,7 +49,7 @@ function Welcome() {
         <h4 class="lead"></h4>
 
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Contact Karlie</button>
+          {/* <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Contact Karlie</button> */}
           {/* <button type="button" class="btn btn-outline-secondary btn-lg px-4">Sign Up</button> */}
         </div>
       </div>
@@ -74,7 +74,7 @@ function Welcome() {
         <h4 class="lead"></h4>
 
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Contact Karlie</button>
+          {/* <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Contact Karlie</button> */}
           {/* <button type="button" class="btn btn-outline-secondary btn-lg px-4">Sign Up</button> */}
         </div>
       </div>
@@ -99,7 +99,7 @@ function Welcome() {
         <h4 class="lead"></h4>
 
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Contact Karlie</button>
+          {/* <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Contact Karlie</button> */}
           {/* <button type="button" class="btn btn-outline-secondary btn-lg px-4">Sign Up</button> */}
         </div>
       </div>
