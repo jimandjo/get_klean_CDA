@@ -14,6 +14,7 @@ function Home() {
           <NavbarBrand>Get Klean CDA</NavbarBrand>
           <Nav className="me-auto">
             <Link to="/" className="nav-link">Home</Link>
+            <Link to="/welcome2" className="nav-link">Welcome 2</Link>
             <Link to="/about-us" className="nav-link">About Me</Link>
             <Link to="/reviews" className="nav-link">Reviews</Link>
 
