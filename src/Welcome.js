@@ -1,8 +1,8 @@
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
+// import Button from "react-bootstrap/Button";
+// import Card from "react-bootstrap/Card";
 import ListGroup from 'react-bootstrap/ListGroup';
 import "./Welcome.css";
-import CleanHouse from './dining.jpg';
+import CleanHouse from './CleanHouse.jpg';
 import MessyHouse from './MessyHouse.jpg';
 import Overwhelm from './Overwhelm.jpeg';
 
@@ -46,7 +46,7 @@ function Welcome() {
         <h1 class="display-5 fw-bold lh-1 mb-3" a href="#">What If You Do Not Clean Your Home</h1>
         
         <h4 class="lead">What would you lose if your home was not cleaned?</h4>
-        <h4 class="lead"></h4>
+        {/* <h4 class="lead"></h4> */}
 
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           {/* <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Contact Karlie</button> */}
@@ -71,7 +71,7 @@ function Welcome() {
               <ListGroup.Item>I have amazing skills</ListGroup.Item>
               <ListGroup.Item>I love what I document</ListGroup.Item>
             </ListGroup>
-        <h4 class="lead"></h4>
+        {/* <h4 class="lead"></h4> */}
 
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           {/* <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Contact Karlie</button> */}
@@ -96,7 +96,7 @@ function Welcome() {
               <ListGroup.Item>Decision Overwhelm</ListGroup.Item>
               <ListGroup.Item>Cleaning is not my expertise</ListGroup.Item>
             </ListGroup>
-        <h4 class="lead"></h4>
+        {/* <h4 class="lead"></h4> */}
 
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           {/* <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Contact Karlie</button> */}
