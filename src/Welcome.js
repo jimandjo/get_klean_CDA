@@ -115,7 +115,7 @@ function Welcome() {
       </div>
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold lh-1 mb-3" a href="#">Contact Me</h1>
-        <h4 class="lead">You will be on your way to better things.</h4>
+        <h4 class="lead">Be on your way to better things.</h4>
 
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Contact Karlie</button>
